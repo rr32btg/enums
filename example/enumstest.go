@@ -27,6 +27,13 @@ import (
 // -pi10 = 10 * pi
 // @]
 
+// [@enums
+// prefix STATUS
+// type status uint8
+// -ENABLED = iota
+// -DISABLED
+// @]
+
 func main() {
 	fmt.Println("List of colors constants:")
 	for i, clr := range colors_Constants {
