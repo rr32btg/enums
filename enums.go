@@ -100,7 +100,7 @@ func (t *{{.Type}}) UnmarshalCQL(info gocql.TypeInfo, data []byte) error {
 		return err
 	}
 
-	t = status
+	*t = *status
 
 	return nil
 }
